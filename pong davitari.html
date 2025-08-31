@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Pong Davitari</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Hard Pong</h1>
+  <h4>Davitari</h4>
+  <canvas id="pong" width="800" height="500"></canvas>
+  <button id="startBtn">iniciar partida!</button>
+  <br>
+  <div>
+    <label for="npcError">Erro do NPC:</label>
+    <input type="range" id="npcError" min="10" max="200" value="70">
+    <span id="npcErrorValue">70</span>
+    <h4>Valor do Erro do NPC quanto maior mais facil</h4>
+
+  </div>
+
+  <p id="message"></p>
+
+  <!-- Sons -->
+  <audio id="hit" src="https://www.soundjay.com/button/sounds/button-16.mp3"></audio>
+  <audio id="score" src="https://www.soundjay.com/button/sounds/button-10.mp3"></audio>
+  <audio id="music" src="https://ia902905.us.archive.org/11/items/TetrisThemeMusic/Tetris.mp3" loop></audio>
+
+  <script src="pong.js"></script>
+</body>
+</html>
