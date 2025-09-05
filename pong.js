@@ -97,7 +97,7 @@ window.onload = function() {
       resetBall();
     }
 
-    // ponto jogador
+    // ponto jogador  hvghg
     if (ball.x > canvas.width) {
       player.score++;
       scoreSound.play();
