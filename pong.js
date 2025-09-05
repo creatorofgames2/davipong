@@ -106,7 +106,7 @@ window.onload = function() {
 
     // fim de jogo
     if (player.score >= 15 || ai.score >= 15) {
-      endGame(player.score > ai.score ? "Você venceu!" : "Que pena!o oponente venceu.");
+      endGame(player.score > ai.score ? "Você venceu!!!" : "Que pena!o oponente venceu.");
     }
   }
 
