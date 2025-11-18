@@ -105,8 +105,8 @@ window.onload = function() {
     }
 
     // fim de jogo
-    if (player.score >= 15 || ai.score >= 15) {
-      endGame(player.score > ai.score ? "Você venceu!!!" : "Que pena!o oponente venceu.");
+    if (player.score >= 3 || ai.score >= 3) {
+      endGame(player.score > ai.score ? "you won!!!" : "What a shame! The BOT won.");
     }
   }
 
@@ -140,7 +140,7 @@ window.onload = function() {
     clearInterval(gameInterval);
     isPlaying = false;
     message.textContent = result;
-    startBtn.textContent = "Jogar Novamente";
+    startBtn.textContent = "Play Again";
     startBtn.style.display = 'inline-block';
   }
 

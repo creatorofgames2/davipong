@@ -4,13 +4,13 @@ canvas {
   margin: 20px auto;
 }
 body {
-  background: #111;
+  background: #363131;
   color: rgb(255, 255, 255);
   font-family: sans-serif;
   text-align: center;
 }
 button {
-  font-size: 80px;
+  font-size: 20px;
   padding: 10px 20px;
   margin-top: 10px;
   cursor: pointer;
